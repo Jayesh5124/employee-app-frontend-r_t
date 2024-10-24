@@ -1,0 +1,86 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 14px;
+}
+
+.search-button, .sort-button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover, .sort-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.add-employee-link {
+  text-decoration: none;
+}
+
+.add-button {
+  padding: 10px 15px;
+  background-color: #28a745; /* Bootstrap success color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #218838; /* Darker shade for hover effect */
+}
+
+.sort-buttons {
+  display: flex; /* Use flexbox for alignment */
+  gap: 400px; /* Space between buttons */
+  margin-bottom: 20px; /* Optional: Space below the buttons */
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Grey color for disabled buttons */
+  cursor: not-allowed;
+}
